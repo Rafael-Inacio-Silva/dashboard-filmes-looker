@@ -1,54 +1,124 @@
 # Dashboard de Análise de Filmes
 
-Projeto de visualização de dados desenvolvido no Looker Studio utilizando um dataset de filmes disponível no Kaggle.
+Projeto de visualização de dados desenvolvido no **Looker Studio** utilizando um dataset de filmes disponível no Kaggle.
 
 O objetivo do projeto é analisar o desempenho dos filmes com base em avaliações de usuários, popularidade, gêneros e características atribuídas pelos próprios usuários.
 
-## Dashboard interativo
+---
 
-Acesse o dashboard:
+# Dashboard Interativo
+
+Acesse o dashboard completo:
 
 https://lookerstudio.google.com/reporting/cb7d4898-ce0d-4763-b4b7-49581d69378c
 
-## Estrutura do Dashboard
+---
 
-O dashboard foi dividido em quatro páginas principais:
+# Estrutura do Dashboard
 
-### Visão Geral
+O dashboard foi dividido em quatro páginas principais para facilitar a análise dos dados.
 
-Apresenta indicadores principais do catálogo:
+---
 
-- total de filmes
-- total de avaliações
-- média de avaliações
-- total de gêneros
+# Visão Geral
+
+Apresenta indicadores principais do catálogo de filmes:
+
+- Total de Filmes
+- Total de Avaliações
+- Média de Avaliações
+- Total de Gêneros
 
 Também permite pesquisar filmes e aplicar filtros.
 
-### Rankings
+![Visao_Geral](imagens/Visao_Geral.png)
 
-Apresenta os Top 10 filmes considerando:
+---
 
-- média de avaliação
-- nota estilo IMDb
-- popularidade (quantidade de avaliações)
+# Rankings de Filmes
 
-### Evolução das Avaliações
+Apresenta os Top 10 filmes considerando diferentes critérios:
 
-Mostra a evolução das avaliações ao longo do tempo e o comportamento dos usuários.
+- Média de avaliação
+- Nota estilo IMDb
+- Popularidade (quantidade de avaliações)
 
-### Tags dos Filmes
+Os rankings podem ser filtrados por gênero.
 
-Explora as características atribuídas pelos usuários aos filmes através das tags.
+![Rankings](imagens/Rankings.png)
 
-## Tecnologias utilizadas
+---
+
+# Evolução das Avaliações
+
+Mostra como o comportamento dos usuários mudou ao longo do tempo, apresentando:
+
+- Quantidade de usuários ativos
+- Evolução do número de avaliações
+- Distribuição das avaliações por período.
+
+![Avaliacoes](imagens/Avaliacoes.png)
+
+---
+
+# Tags e Características dos Filmes
+
+Explora as **tags atribuídas pelos usuários**, permitindo identificar padrões de percepção do público sobre os filmes.
+
+![Tags](imagens/Tags.png)
+
+---
+
+# Dataset Utilizado
+
+O projeto utiliza dados estruturados em diferentes tabelas relacionadas ao domínio de filmes:
+
+- movies
+- ratings
+- tags
+- rating_c_global
+
+Essas tabelas se relacionam principalmente pelo campo **movieId**, que funciona como chave de integração entre os dados.
+
+---
+
+# Tecnologias Utilizadas
 
 - Looker Studio
 - SQL
 - Dataset Kaggle
-- GitHub
+- GitHub para documentação e versionamento
 
-## Autor
+---
+
+# Estrutura do Repositório
+
+dashboard-filmes-looker
+
+├── README.md
+
+├── imagens
+
+├──── Avaliacoes.png
+
+├──── Rankings.png
+
+├──── Tags.png
+
+├──── Visao_Geral.png
+
+├── relatorios
+
+├──── Gestão_de_Filmes.pdf
+
+├──── Rafael_Inacio_Silva_DR1_TP1.pdf
+
+├──── Rafael_Inacio_Silva_DR1_TP2.pdf
+
+
+---
+
+# Autor
 
 Rafael Inácio Silva  
 Engenharia de Software  
