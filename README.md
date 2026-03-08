@@ -1,8 +1,13 @@
 # Dashboard de Análise de Filmes
 
-Projeto de visualização de dados desenvolvido no **Looker Studio** utilizando um dataset de filmes disponível no Kaggle.
+![Looker Studio](https://img.shields.io/badge/Looker_Studio-4285F4?style=for-the-badge&logo=googleanalytics&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![Data Analysis](https://img.shields.io/badge/Data_Analysis-FF6F00?style=for-the-badge)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)
 
-O objetivo do projeto é analisar o desempenho dos filmes com base em avaliações de usuários, popularidade, gêneros e características atribuídas pelos próprios usuários.
+Projeto de **visualização e análise de dados de filmes** desenvolvido no Looker Studio utilizando dataset do Kaggle.
+
+O objetivo é explorar avaliações de usuários, popularidade dos filmes, distribuição por gênero e padrões de percepção do público.
 
 ---
 
