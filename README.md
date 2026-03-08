@@ -102,6 +102,14 @@ dashboard-filmes-looker
 
 ├── README.md
 
+├── base_dados
+
+├──── movie.xlsx
+
+├──── movies_tags3.csv
+
+├──── rating-2.xlsx
+
 ├── imagens
 
 ├──── Avaliacoes.png
